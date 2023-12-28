@@ -2,13 +2,14 @@
 
 body {
     background-color: var(--Off-white);
+    margin: 0;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    position: relative;
 }
 
 :root {
@@ -124,6 +125,7 @@ hr {
 footer {
     position: absolute;
     bottom: 0;
+    margin-bottom: 1rem;
     color: var(--Smokey-grey);
     font-size: .85rem;
 }
