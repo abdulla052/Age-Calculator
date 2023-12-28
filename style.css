@@ -5,6 +5,7 @@ body {
     height: 100vh;
     font-family: 'Poppins', sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -120,6 +121,13 @@ hr {
     color: var(--Purple);
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    color: var(--Smokey-grey);
+    font-size: .85rem;
+}
+
 
 /* Responsive */
 
@@ -177,7 +185,7 @@ hr {
 @media (max-width: 390px) {
     .container {
         width: 90%;
-        padding: 2rem 1rem ;
+        padding: 2rem 1rem;
     }
 
 }
