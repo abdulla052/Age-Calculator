@@ -1,3 +1,28 @@
+@media (max-width: 750px) {
+
+    .container {
+        gap: 4rem;
+        padding: 3rem;
+    }
+
+    .form-container {
+        width: 100%;
+    }
+
+    .submit-block {
+        position: relative;
+        width: 100%;
+    }
+
+    .submit-block img {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 2rem;
+    }
+}
+
+
 @media (max-width: 500px) {
     .container {
         width: 90%;
@@ -33,3 +58,4 @@
     }
 
 }
+

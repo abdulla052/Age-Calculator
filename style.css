@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800;1,900&display=swap');
 
+* {
+    transition: width 0.3s ease;
+}
+
 body {
     background-color: var(--Off-white);
     margin: 0;
@@ -45,8 +49,8 @@ body {
 }
 
 .form label {
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: .8rem;
+    font-weight: 600;
     color: var(--Smokey-grey);
     text-transform: uppercase;
     letter-spacing: 1.4px;
@@ -128,30 +132,4 @@ footer {
     margin-bottom: 1rem;
     color: var(--Smokey-grey);
     font-size: .85rem;
-}
-
-
-/* Responsive */
-
-@media (max-width: 750px) {
-
-    .container {
-        gap: 4rem;
-        padding: 3rem;
-    }
-
-    .form-container {
-        width: 100%;
-    }
-
-    .submit-block {
-        position: relative;
-        width: 100%;
-    }
-
-    .submit-block img {
-        position: absolute;
-        left: 37%;
-        height: 2rem;
-    }
 }
