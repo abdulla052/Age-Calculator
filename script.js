@@ -133,3 +133,6 @@ function daysInFebruary(year) {
         return 28; // Non-leap year, February has 28 days
     }
 }
+
+
+document.querySelector('footer').innerHTML = `© ${currentYear} Abdulla Hassan`;
